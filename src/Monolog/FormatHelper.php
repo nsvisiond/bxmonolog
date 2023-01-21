@@ -1,5 +1,5 @@
 <?php
-namespace App\Monolog;
+namespace BX\Monolog;
 
 class FormatHelper {
 
