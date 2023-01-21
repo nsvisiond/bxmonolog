@@ -1,4 +1,4 @@
-# Адаптер [Monolog](https://github.com/Seldaek/monolog) для 1С-Битрикс
+# Адаптер [Monolog](https://github.com/Seldaek/monolog) для 1С-Битрикс (для php ^8.1)
 
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/itrukhin/bxmonolog/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/itrukhin/bxmonolog/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/itrukhin/bxmonolog/badges/build.png?b=master)](https://scrutinizer-ci.com/g/itrukhin/bxmonolog/build-status/master)
