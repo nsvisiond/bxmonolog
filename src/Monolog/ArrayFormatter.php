@@ -2,13 +2,14 @@
 namespace BX\Monolog;
 
 use Monolog\Formatter\NormalizerFormatter;
+use Monolog\LogRecord;
 
 class ArrayFormatter extends NormalizerFormatter
 {
 	/**
 	 * {@inheritdoc}
 	 */
-	public function format(array $record)
+	public function format(LogRecord $record)
 	{
 		/** @var \DateTime $date */
 		$date = $record['datetime'];
