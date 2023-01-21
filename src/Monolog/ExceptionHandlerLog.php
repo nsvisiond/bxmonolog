@@ -1,7 +1,7 @@
 <?php
-namespace App\Monolog;
+namespace BX\Monolog;
 
-use App\Log;
+use BX\Log;
 use Bitrix\Main\Diag\Debug;
 use Bitrix\Main\Diag\ExceptionHandler;
 use Monolog\Logger;
