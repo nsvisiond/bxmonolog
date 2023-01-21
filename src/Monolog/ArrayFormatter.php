@@ -1,5 +1,5 @@
 <?php
-namespace App\Monolog;
+namespace BX\Monolog;
 
 use Monolog\Formatter\NormalizerFormatter;
 
