@@ -1,5 +1,5 @@
 <?php
-namespace App\Monolog;
+namespace BX\Monolog;
 
 use Monolog\Formatter\LineFormatter;
 use Monolog\Handler\StreamHandler;
