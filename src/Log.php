@@ -1,8 +1,8 @@
 <?php
-namespace App;
+namespace BX;
 
-use App\Monolog\FormatHelper;
-use App\Monolog\LoggerFactory;
+use BX\Monolog\FormatHelper;
+use BX\Monolog\LoggerFactory;
 use Bitrix\Main\Diag\Debug;
 use Monolog\Logger;
 use Psr\Log\LoggerInterface;
@@ -230,6 +230,6 @@ class Log implements LoggerInterface {
         $logPath = $_SERVER['DOCUMENT_ROOT'] . ($_ENV['APP_LOG_FOLDER'] ?: '/log/');
         $command = sprintf("find %s -mindepth 1 -type f -mtime +%d | xargs rm", $logPath, $daysAgo);
         exec($command);
-        return sprintf('\App\Log::cleanLogs(%d);', $daysAgo);
+        return sprintf('\BX\Log::cleanLogs(%d);', $daysAgo);
     }
 }
