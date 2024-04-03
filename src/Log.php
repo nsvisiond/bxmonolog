@@ -211,7 +211,7 @@ class Log implements LoggerInterface {
         $minDebugLevel = ($_ENV['APP_DEBUG_LEVEL'] ?: LogLevel::DEBUG);
         $minDebugLevel = Logger::toMonologLevel($minDebugLevel);
 
-        if($level >= $minDebugLevel) {
+        if($level->value >= $minDebugLevel->value) {
             return true;
         }
         return false;
